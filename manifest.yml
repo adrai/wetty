@@ -1,0 +1,8 @@
+---
+applications:
+- name: wetty
+  buildpack: https://github.com/cloudfoundry/nodejs-buildpack
+  memory: 75M
+  instances: 1
+  path: .
+  # command: node server.js
